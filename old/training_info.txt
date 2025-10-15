@@ -1,0 +1,41 @@
+=========== Data & Preprocessing Info ===========
+Selected Equipment No: 82501456832002
+Target Column: DATA3
+Data File Path: /workspace/data/CST_OP_COLLECTION.csv
+Specific Preprocessing Enabled: False
+Data points for selected equipment after initial load: 29536
+Data points after datetime conversion and sorting (df): 29536
+Data points in full_series (target column values for model): 29536
+Data points in series_scaled (after scaling): 29536
+
+=========== Sliding Window Info ===========
+Points per day (for window calculation): 288
+Input Sequence Days: 7
+Output Sequence Days: 7
+Stride Days: 1
+Input Sequence Length (points): 2016
+Output Sequence Length (points): 2016
+Stride (points): 288
+Total generated window samples (X.shape[0]): 89
+Training samples (X_train.shape[0]): 71
+Validation samples (X_val.shape[0]): 18
+
+=========== Model Hyperparameters ===========
+LSTM Input Size: 1
+LSTM Hidden Size: 64
+LSTM Num Layers: 2
+
+=========== Training Parameters ===========
+Device: cuda
+Actual Epochs Run: 2000
+Target Epochs: 2000
+Batch Size: 16
+Learning Rate: 0.001
+Criterion: MSELoss
+Optimizer: Adam
+
+=========== Training Results ===========
+Final Training Loss: 0.006151
+Final Validation Loss (MSE): 0.033459
+Average MAE per Validation Window: nan
+Total Execution Time: 102.76 seconds

@@ -1,0 +1,5 @@
+# 도커 재설치 후, 권한 문제가 발발할 수 있음. 
+
+sudo usermod -aG docker ['계정명을 기입하시오'] # 하고 다시 docker ps
+
+sudo chmod 666 /var/run/docker.sock # 그래도 해결이 안되면 파일 권한 명령어로 해결

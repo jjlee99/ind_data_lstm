@@ -1,0 +1,33 @@
+최적파라미터 탐색
+
+batch_size = 8
+epochs = 50
+lr = 0.00008
+hidden_size = 64
+num_layers = 2
+
+이상
+
+
+batch_size = 4
+epochs = 50
+lr = 0.00008
+hidden_size = 64
+num_layers = 2
+
+
+batch_size = 8
+epochs = 50
+lr = 0.0008
+hidden_size = 64
+num_layers = 2
+
+
+
+batch_size = 16
+epochs = 50
+lr = 0.0008
+hidden_size = 64
+num_layers = 2
+
+급격하게 바꾸기.
