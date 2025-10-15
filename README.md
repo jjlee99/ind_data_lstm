@@ -1,6 +1,3 @@
-vscode로 도커 컨테이너 접속 방법은 알고계실지 모르겠습니다만, 필요하시다면 알려드리겠습니다
-
-
 
 폴더 및 현재 디렉토리 파일 설명
 data: CST_OP_COLLECTION.csv,IOT_CTRL_THERMO_202506100935_3month.csv # 두가지 데이터를 포함함. (cst로 시작하는 계측기 수집 정보 데이터, thermo인 열화상 센서 데이터)
